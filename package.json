@@ -1,7 +1,7 @@
 {
   "name": "pulsar-ide-rust",
   "main": "lib/main.js",
-  "version": "0.6.1",
+  "version": "0.1.0",
   "description": "Rust language support for Pulsar",
   "repository": "https://github.com/Cheukting/pulsar-ide-rust",
   "keywords": [
