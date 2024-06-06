@@ -1,33 +1,28 @@
 {
-  "name": "pulsar-ide-clangd",
+  "name": "pulsar-ide-rust",
   "main": "lib/main.js",
   "version": "0.6.1",
-  "description": "C/C++ language support for Pulsar (forked from the original)",
-  "repository": "https://github.com/savetheclocktower/pulsar-ide-clangd",
+  "description": "Rust language support for Pulsar",
+  "repository": "https://github.com/Cheukting/pulsar-ide-rust",
   "keywords": [
-    "atom-ide",
+    "pulsar-ide",
     "ide",
-    "c",
-    "c++",
-    "cpp",
-    "clang",
-    "clangd",
+    "Rust",
+    "rust-analyzer ",
     "languageserver",
     "language-server-protocol",
     "language-client"
   ],
-  "author": "Joshua Breeden <jbreeden@me.com> / Andrew Dupont <github@andrewdupont.net>",
+  "author": "Cheuk Ting Ho <me@cheuk.dev>",
   "license": "MIT",
   "engines ": {
     "atom": ">=1.112.0"
   },
   "activationHooks": [
-    "source.c:root-scope-used",
-    "source.cpp:root-scope-used"
+    "source.rust:root-scope-used"
   ],
   "enhancedScopes": [
-    "source.c",
-    "source.cpp"
+    "source.rust"
   ],
   "consumedServices": {
     "linter-indie": {
