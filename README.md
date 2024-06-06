@@ -1,29 +1,22 @@
-# pulsar-ide-clangd
+# [WIP] pulsar-ide-rust
 
-Provides C and C++ language support for [Pulsar] using
-[Clangd language server][Clangd]
+Provides Rust support for [Pulsar](https://pulsar-edit.dev/) using
+[rust-analyzer](https://rust-analyzer.github.io)
 
 ## About
 
 This plugin only provides some of the functionality designated by the language
 server protocol. This plugin currently enables many of the features supported by
-Clangd:
+rust-analyzer:
 
-+ Diagnostics (errors, warnings, info)
-+ Code Formatting
-+ Completion
-+ Fix-its
-+ Function signature help
-+ Document highlights
-+ Go To Declaration (it will go to the declaration, but not the definition)
-+ ~~Rename~~ (not yet supported by Pulsar)
++ <To be added>
 
 All contributions and feedback are appreciated.
 
 ## Requirements
 
 + [Pulsar] 1.100 or later
-+ [Clangd] executable installed in your path ([prebuilt binaries])
++ [rust-analyzer] executable installed in your path
 
 Autocompletion support via `autocomplete-plus` is built-in. If you’re running
 Pulsar 1.113 or later, so is symbol search via `symbols-view` — symbols within
@@ -34,6 +27,8 @@ Other services can be consumed with various packages. You can install
 choose a bit more carefully!
 
 ## Compilation Database
+
+<To be updated>
 
 In order to make this plugin work effectively, clangd requires information about
 how your code should be compiled. There are two options: compile_commands.json,

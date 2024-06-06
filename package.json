@@ -8,7 +8,7 @@
     "pulsar-ide",
     "ide",
     "Rust",
-    "rust-analyzer ",
+    "rust-analyzer",
     "languageserver",
     "language-server-protocol",
     "language-client"
